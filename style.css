@@ -1,24 +1,25 @@
+/* Pengaturan gaya untuk keseluruhan halaman web */
 body {
-     background-color: #FFFFFF
-     font-familya: Arila, san-serif; /* jenis huruf yang bersih  dsn mudsh di baca */
-     color; #191970; /* warna teks utama*/
-  }
-
-    55 .kartu profil {
-        width: 300px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: whitw;
-        border-radius: 15px;
-        box-shadow: 0 4px  8px  rgba (0,0,0,0.1);
-    }
-
-.kartu.profil {
-   width: 150px;
-   border-radius: 50%;
+    background-color: #FFFFFF; /* Warna latar belakang halaman (putih) */
+    font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+    color: #191970; /* Warna teks utama (biru tua) */
 }
+
+/* Pengaturan gaya untuk wadah kartu profil */
 .kartu-profil {
-  /*...(kode dari slide sebelumnya)...*/
-  text-align: center;
+    width: 300px; /* Lebar kartu */
+    margin: 50px auto; /* Membuat kartu berada di tengah halaman */
+    padding: 20px; /* Jarak isi di dalam kartu ke garis tepi */
+    background-color: white; /* Warna latar belakang kartu */
+    border-radius: 15px; /* Membuat sudut kartu melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut pada kartu */
+    text-align: center; /* Membuat semua teks dan isi kartu berada di tengah */
 }
-        
+
+/* Pengaturan gaya khusus untuk foto profil di dalam kartu */
+.kartu-profil .foto-profil {
+    width: 150px; /* Lebar foto profil */
+    height: 150px; /* Tinggi foto profil */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi/gepeng */
+    border-radius: 50%; /* Membuat foto berbentuk lingkaran sempurna */
+}
